@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "simple-stupid-bot"
+version = "0.1.0"
+description = ""
+authors = ["Марина Пикунова <mewwmarka@gmail.com>"]
+readme = "README.md"
+packages = [{include = "simple_stupid_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiogram = "^2.25.1"
+python-decouple = "^3.8"
+aiofiles = "^23.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
